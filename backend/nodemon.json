@@ -1,0 +1,11 @@
+{
+    "watch": [
+        "src",
+        "public"
+    ],
+    "ext": "ts,js,html,css,png,webp,jpg",
+    "ignore": [
+        "**/*.json"
+    ],
+    "exec": "tsc && bun ./src/game.ts"
+}

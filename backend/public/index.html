@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Interactive Story Explorer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/main.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="inventory-container" style="width:20%; height: auto; border: 2px solid #fff; padding: 10px; margin-right: 10px;">
+                <h3>Inventory</h3>
+                <ul id="inventory-list"></ul>
+            </div>
+            <div style="width: 80%">
+                <div class="image-container">
+                    <img id="game-image" class="game-image" style="display: none;" alt="Game Scene">
+                    <div id="image-loading" class="image-loading">Awaiting your first move...</div>
+                </div>
+                <div class="chat-container">
+                    <div id="chat-messages" class="chat-messages">
+                        <div class="message assistant">
+                            <div class="message-content">What's your name, brave explorer?</div>
+                        </div>
+                    </div>
+                    <div class="options-container" id="options-container">
+                    </div>
+                    <div class="input-container">
+                        <select id="action-select">
+                            <option value="">Select Action</option>
+                            <option value="acquire">Acquire</option>
+                            <option value="use">Use</option>
+                            <option value="consume">Consume</option>
+                            <option value="attack">Attack</option>
+                            <option value="ability">Ability</option>
+                        </select>
+                        <input type="text" id="user-input" placeholder="Write your own response..." maxlength="100">
+                        <button onclick="sendMessage()">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

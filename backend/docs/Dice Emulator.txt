@@ -1,0 +1,5 @@
+Amount to Roll: 
+1
+ Sides on the Die: 
+20
+  

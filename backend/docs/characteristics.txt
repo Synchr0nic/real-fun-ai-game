@@ -1,0 +1,26 @@
+
+
+https://codepen.io/JonasSkjodt/pen/BaLMoqw
+
+characteristics :
+STRENGTH
+16
+INTELLECT
+3
+DEXTERITY
+12
+WISDOM
+4
+CONSTITUTION
+15
+CHARISMA
+5
+
+Name:
+ Init:
+ AC:
+ Max HP:
+ Damage:
+ Notes:
+
+https://codepen.io/KojiSen/pen/povRQvo
