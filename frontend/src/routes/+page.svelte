@@ -21,6 +21,7 @@
 <svelte:head>
 	<title>RFAG</title>
 	<meta name="description" content="A Real Fun AI Game" />
+	<link rel="stylesheet" href="css/home.css">
 </svelte:head>
 
 {#if shouldShowConfetti}
@@ -209,78 +210,6 @@
 </div>
 
 <style>
-	h1,
-	h2,
-	p {
-		font-weight: 400;
-	}
-
-	p {
-		line-height: 1.5;
-	}
-
-	a {
-		color: var(--color-theme-1);
-		text-decoration: none;
-	}
-
-	a:hover {
-		text-decoration: underline;
-	}
-
-	h1 {
-		font-size: 2rem;
-		text-align: center;
-	}
-
-	h2 {
-		font-size: 1rem;
-	}
-
-	button:focus:not(:focus-visible) {
-		outline: none;
-	}
-
-	@media (min-width: 720px) {
-		h1 {
-			font-size: 2.4rem;
-		}
-	}
-
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
 	.glow-text {
 		color: white;
 		text-shadow:
