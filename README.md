@@ -97,7 +97,7 @@ RFAG is a unique RPG experience that blends traditional turn-based gameplay with
 3. ❌ Generate character visuals
 4. ❌ See dynamic day/night cycle
 5. ❌ Experience weather effects
-6. ❌ Implement AI-generated scenery
+6. ✅ Implement AI-generated scenery
 7. ❌ Animate character movement
 8. ❌ Animate combat
 9. ❌ Render lighting
