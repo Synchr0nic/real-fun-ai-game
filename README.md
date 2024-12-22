@@ -14,9 +14,7 @@ RFAG is a unique RPG experience that blends traditional turn-based gameplay with
 
 ## Features ✨
 
-
 ![Login](preview.png)
-
 
 | Feature                 | Description                                                                                                |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -31,12 +29,120 @@ RFAG is a unique RPG experience that blends traditional turn-based gameplay with
 
 ## Getting Started 🚀
 
-[!NOTE]
-**Replace the placeholders below with your actual setup instructions!**
+**Core Game Mechanics:**
 
-1. Clone the repository: `git clone [your-repo-url]`
-2. Install dependencies: `npm install` or `bun install`
-3. Run the game: `npm run start` or `bun run start`
+1. ❌ Start new game
+2. ❌ Load saved game
+3. ❌ Turn-based combat
+4. ❌ Character movement
+5. ❌ Explore map
+6. ❌ Interact with objects
+7. ❌ Manage inventory
+8. ❌ Equip items
+9. ❌ Use items
+10. ❌ Learn skills
+11. ❌ Level up
+12. ❌ View stats
+13. ❌ Track experience
+14. ❌ Perform attacks
+15. ❌ Cast spells
+16. ❌ Receive damage
+17. ❌ Check health
+18. ❌ Apply status effects
+19. ❌ Experience random events
+20. ❌ Make choices
+21. ❌ View quest log
+22. ❌ Complete quests
+23. ❌ Talk to NPCs
+24. ❌ Trade with merchants
+25. ❌ Discover secrets
+26. ❌ Unlock achievements
+27. ❌ Set game difficulty
+28. ❌ Pause the game
+29. ❌ View game settings
+30. ❌ Change game language
+
+**User Interface and Experience:**
+
+1. ❌ Login
+2. ❌ Register new account
+3. ❌ Logout
+4. ❌ Reset password
+5. ❌ Delete account
+6. ❌ Customize character appearance
+7. ❌ Set user name
+8. ❌ View user profile
+9. ❌ Send friend request
+10. ❌ Accept friend request
+11. ❌ Join a game
+12. ❌ Create a game room
+13. ❌ Chat with other players
+14. ❌ Report players
+15. ❌ Block players
+16. ❌ View tutorials
+17. ❌ Receive notifications
+18. ❌ Control volume
+19. ❌ Switch to dark mode
+20. ❌ Adjust screen resolution
+21. ❌ Map zoom in
+22. ❌ Map zoom out
+23. ❌ Toggle full screen
+24. ❌ View tooltips
+25. ❌ See button prompts
+
+**World and Visuals:**
+
+1. ❌ Generate world map
+2. ❌ Generate environment
+3. ❌ Generate character visuals
+4. ❌ See dynamic day/night cycle
+5. ❌ Experience weather effects
+6. ❌ Implement AI-generated scenery
+7. ❌ Animate character movement
+8. ❌ Animate combat
+9. ❌ Render lighting
+10. ❌ Play sound effects
+11. ❌ Play background music
+12. ❌ Add camera controls
+13. ❌ Display UI elements
+14. ❌ Use particle effects
+15. ❌ Render UI animations
+
+**Multiplayer Functions:**
+
+1. ❌ Connect to game server
+2. ❌ Matchmake with players
+3. ❌ Synchronize game state
+4. ❌ Handle player input
+5. ❌ Manage player turns
+6. ❌ Support multiple game instances
+7. ❌ Monitor network traffic
+8. ❌ Implement lag compensation
+9. ❌ Prevent cheating
+10. ❌ Disconnect from game server
+
+**Content & Customization:**
+
+1. ❌ Create different classes
+2. ❌ Design various skills
+3. ❌ Design items
+4. ❌ Design enemies
+5. ❌ Generate unique locations
+6. ❌ Create story events
+7. ❌ Develop dialogue system
+8. ❌ Create dynamic loot
+9. ❌ Design boss fights
+10. ❌ Add crafting system
+11. ❌ Add skill trees
+12. ❌ Create story cutscenes
+13. ❌ Add mod support
+14. ❌ Add in app purchase
+15. ❌ Generate daily rewards
+16. ❌ Add leaderboards
+17. ❌ Add seasonal events
+18. ❌ Track play time
+19. ❌ Support controllers
+20. ❌ Get bug reports
 
 ## Contact 📧
 
