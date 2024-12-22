@@ -6,8 +6,8 @@
 
 <header>
 	<div class="corner">
-		<a href="https://svelte.dev/docs/kit">
-			<img src={logo} alt="SvelteKit" />
+		<a href="https://rfag.pages.dev/">
+			<img src={logo} alt="RFAG" />
 		</a>
 	</div>
 
@@ -17,13 +17,10 @@
 		</svg>
 		<ul>
 			<li aria-current={page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
+				<a href="/">Play</a>
 			</li>
-			<li aria-current={page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
-			</li>
-			<li aria-current={page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a href="/sverdle">Sverdle</a>
+			<li aria-current={page.url.pathname === '/account' ? 'page' : undefined}>
+				<a href="/account">Account</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -32,8 +29,8 @@
 	</nav>
 
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
+		<a href="https://github.com/Synchr0nic/real-fun-ai-game">
+			<img src={github} alt="RFAG GitHub" />
 		</a>
 	</div>
 </header>

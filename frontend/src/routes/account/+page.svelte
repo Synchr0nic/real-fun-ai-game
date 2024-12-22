@@ -1,10 +1,10 @@
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+	<title>RFAG - Account</title>
+	<meta name="description" content="RFAG - Manage your account" />
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1>RFAG - Manage your account</h1>
 
 	<p>
 		This is a <a href="https://svelte.dev/docs/kit">SvelteKit</a> app. You can make your own by typing
