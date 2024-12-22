@@ -30,16 +30,9 @@ RFAG is a unique RPG experience that blends traditional turn-based gameplay with
 [!NOTE]
 **Replace the placeholders below with your actual setup instructions!**
 
-1.  Clone the repository: `git clone [your-repo-url]`
-2.  Install dependencies: `npm install` or `bun install`
-3.  Run the game: `npm run start` or `bun run start`
-
-## Contributing 🤝
-
-[!NOTE]
-**Please create a `CONTRIBUTING.md` file and link it here for detailed contribution guidelines.**
-
-We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
+1. Clone the repository: `git clone [your-repo-url]`
+2. Install dependencies: `npm install` or `bun install`
+3. Run the game: `npm run start` or `bun run start`
 
 ## Contact 📧
 
