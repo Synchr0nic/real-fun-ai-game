@@ -1,8 +1,8 @@
 # RFAG (real-fun-ai-game)
 
-![logo](https://github.com/user-attachments/assets/a25daad5-649d-42ac-8e22-d986021f30d3)
-
 **RFAG (real-fun-ai-game): A multiplayer/singleplayer turn-based RPG where your choices shape a dynamic world. Experience adventures with AI-generated visuals, a full inventory system, user stats, real-time day/night cycles, and unexpected dangers that can randomly occur.**
+
+![logo](https://github.com/user-attachments/assets/a25daad5-649d-42ac-8e22-d986021f30d3)
 
 ## About
 
