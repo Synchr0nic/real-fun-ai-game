@@ -14,6 +14,10 @@ RFAG is a unique RPG experience that blends traditional turn-based gameplay with
 
 ## Features ✨
 
+
+![Login](preview.png)
+
+
 | Feature                 | Description                                                                                                |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------- |
 | 🧑‍🤝‍🧑 Multiplayer/Singleplayer | Play solo or with friends.                                                                                |

@@ -21,7 +21,7 @@
 <svelte:head>
 	<title>RFAG</title>
 	<meta name="description" content="A Real Fun AI Game" />
-	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="/css/home.css">
 </svelte:head>
 
 {#if shouldShowConfetti}

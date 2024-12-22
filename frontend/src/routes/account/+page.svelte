@@ -5,7 +5,7 @@
 <svelte:head>
 	<title>RFAG - Account</title>
 	<meta name="description" content="RFAG - Manage your account" />
-	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="/css/home.css">
 </svelte:head>
 
 <div class="app">

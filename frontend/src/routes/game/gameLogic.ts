@@ -10,7 +10,7 @@ const observer = new MutationObserver(() => {
 
 observer.observe(chatMessages, { childList: true, subtree: true });
 
-async function fetchWithTimeout(resource, options = {}) {
+export async function fetchWithTimeout(resource, options = {}) {
     const { timeout = 8000 } = options;
     const controller = new AbortController();
     const id = setTimeout(() => controller.abort(), timeout);
@@ -24,7 +24,7 @@ async function fetchWithTimeout(resource, options = {}) {
     }
 }
 
-async function sendMessage(option = null) {
+export async function sendMessage(option = null) {
     const messageInput = document.getElementById('user-input');
     const actionSelect = document.getElementById('action-select');
     let message = option;
@@ -74,14 +74,14 @@ async function sendMessage(option = null) {
     chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
-function typeWriter(element, text, i) {
+export function typeWriter(element, text, i) {
     if (i < text.length) {
         element.innerHTML += text.charAt(i);
         setTimeout(() => typeWriter(element, text, i + 1), 30);
     }
 }
 
-function updateGameScene(imageUrl) {
+export function updateGameScene(imageUrl) {
     if (imageUrl) {
         const newImage = new Image();
         newImage.onload = function () {
@@ -96,28 +96,37 @@ function updateGameScene(imageUrl) {
     }
 }
 
-document.getElementById('user-input').addEventListener('keypress', function (event) {
-    if (event.key === 'Enter') {
-        sendMessage();
-    }
-});
-
-function escapeHtml(unsafe) {
+export function escapeHtml(unsafe) {
     return unsafe.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
 }
 
-function updateOptions(options) {
+export function updateOptions(options) {
     optionsContainer.innerHTML = '';
     for (let i = 0; i < options.length; i++) {
         const option = options[i];
         const optionButton = document.createElement('button');
         optionButton.className = 'option-button';
+        optionButton.style.backgroundColor = 'transparent';
+        optionButton.style.color = '#fff';
+        optionButton.style.border = '2px solid #fff';
+        optionButton.style.borderRadius = '0';
+        optionButton.style.cursor = 'pointer';
+        optionButton.style.marginBottom = '5px';
+        optionButton.style.textAlign = 'left';
+        optionButton.style.whiteSpace = 'normal';
+        optionButton.addEventListener('mouseover', () => {
+            optionButton.style.backgroundColor = '#555';
+        });
+        optionButton.addEventListener('mouseleave', () => {
+            optionButton.style.backgroundColor = 'transparent';
+        });
         optionButton.textContent = option;
         optionButton.onclick = function () { sendMessage(option); };
         optionsContainer.appendChild(optionButton);
     }
 }
-function updateInventoryUI(inventory) {
+
+export function updateInventoryUI(inventory) {
     console.log("Updating Inventory UI:", inventory);
     inventoryList.innerHTML = '';  // Clear existing list
     if (inventory && inventory.length > 0) {
