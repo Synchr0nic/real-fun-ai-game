@@ -10,6 +10,8 @@
 
 RFAG is a unique RPG experience that blends traditional turn-based gameplay with dynamic AI-generated visuals. Explore a world shaped by your decisions, manage your inventory and stats, and navigate a world with real-time day/night cycles ☀️🌙. Be prepared for unexpected dangers that can randomly occur, adding an element of surprise to your adventures ⚠️.
 
+![image](https://github.com/user-attachments/assets/f729291d-698e-41f3-a220-52f3409f7de0)
+
 ## Features ✨
 
 | Feature                 | Description                                                                                                |
