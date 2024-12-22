@@ -31,13 +31,13 @@ RFAG is a unique RPG experience that blends traditional turn-based gameplay with
 
 **Core Game Mechanics:**
 
-1. ❌ Start new game
+1. ✅ Start new game
 2. ❌ Load saved game
 3. ❌ Turn-based combat
-4. ❌ Character movement
+4. ✅ Character movement
 5. ❌ Explore map
 6. ❌ Interact with objects
-7. ❌ Manage inventory
+7. ✅ Manage inventory
 8. ❌ Equip items
 9. ❌ Use items
 10. ❌ Learn skills
@@ -50,7 +50,7 @@ RFAG is a unique RPG experience that blends traditional turn-based gameplay with
 17. ❌ Check health
 18. ❌ Apply status effects
 19. ❌ Experience random events
-20. ❌ Make choices
+20. ✅ Make choices
 21. ❌ View quest log
 22. ❌ Complete quests
 23. ❌ Talk to NPCs
@@ -64,13 +64,13 @@ RFAG is a unique RPG experience that blends traditional turn-based gameplay with
 
 **User Interface and Experience:**
 
-1. ❌ Login
-2. ❌ Register new account
+1. ✅ Login
+2. ✅ Register new account
 3. ❌ Logout
 4. ❌ Reset password
 5. ❌ Delete account
 6. ❌ Customize character appearance
-7. ❌ Set user name
+7. ✅ Set user name
 8. ❌ View user profile
 9. ❌ Send friend request
 10. ❌ Accept friend request
@@ -81,8 +81,8 @@ RFAG is a unique RPG experience that blends traditional turn-based gameplay with
 15. ❌ Block players
 16. ❌ View tutorials
 17. ❌ Receive notifications
-18. ❌ Control volume
-19. ❌ Switch to dark mode
+18. ✅ Control volume
+19. ✅ Switch to dark mode
 20. ❌ Adjust screen resolution
 21. ❌ Map zoom in
 22. ❌ Map zoom out
@@ -102,7 +102,7 @@ RFAG is a unique RPG experience that blends traditional turn-based gameplay with
 8. ❌ Animate combat
 9. ❌ Render lighting
 10. ❌ Play sound effects
-11. ❌ Play background music
+11. ✅ Play background music
 12. ❌ Add camera controls
 13. ❌ Display UI elements
 14. ❌ Use particle effects
@@ -110,12 +110,12 @@ RFAG is a unique RPG experience that blends traditional turn-based gameplay with
 
 **Multiplayer Functions:**
 
-1. ❌ Connect to game server
+1. ✅ Connect to game server
 2. ❌ Matchmake with players
 3. ❌ Synchronize game state
-4. ❌ Handle player input
+4. ✅ Handle player input
 5. ❌ Manage player turns
-6. ❌ Support multiple game instances
+6. ✅ Support multiple game instances
 7. ❌ Monitor network traffic
 8. ❌ Implement lag compensation
 9. ❌ Prevent cheating
@@ -142,7 +142,8 @@ RFAG is a unique RPG experience that blends traditional turn-based gameplay with
 17. ❌ Add seasonal events
 18. ❌ Track play time
 19. ❌ Support controllers
-20. ❌ Get bug reports
+20. ✅ Get bug reports
+21. ❌ Publish the app to the website
 
 ## Contact 📧
 
